@@ -116,4 +116,98 @@
     font-style: normal;
     font-display: swap;
 }
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-ExtraBold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-ExtraLight.woff2') format('woff2');
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../fonts/Poppins-Thin.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+  font-display: swap;
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+}
+#hero header nav.left {}
+#hero header nav.left a {}
+#hero header nav.left a img {}
+#hero header nav.middle  {}
+#hero header nav.middle h1 {
+  letter-spacing: 8px;
+  font-weight: 600;
+  font-size: 32px;
+}
+#hero header nav.middle a  {
+  letter-spacing: 8px;
+  font-weight: 600;
+  font-size: 32px;
+}
+#hero header nav.right  {}
+#hero header nav.right ul {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+}
+#hero header nav.right ul li{
+  margin-left: 20px;
+}
+#hero header nav.right ul li:first-child{
+  margin-left: 0;
+}
+#hero header nav.right ul li a{
+  position: relative;
+}
+#hero header nav.right ul li a img{}
+#hero header nav.right ul li a div.eight{
+  border-radius: 50%;
+  background: #E41D1D;
+  color: #fff;
+  text-align: center;
+  width: 23px;;
+  position: absolute;
+  border: 2px solid #fff;
+  right: -5px;
+
+}
+#hero header nav.right ul li a div.eight span{
+  font-size: 12px;
+  display: block;
+}
+#hero header nav.right ul li a div.bag{
+  border-radius: 50%;
+  background:yellow;
+  color: #000;
+  text-align: center;
+  width: 23px;;
+  position: absolute;
+  border: 2px solid #fff;
+  right: -5px;
+}
+#hero header nav.right ul li a div.bag span{
+  font-size: 12px;
+  display: block;
+  font-weight: 600;
+}
+
+#hero #spolight{}
+#hero #spolight section.left{}
+#hero #spolight section.left ul{ }
+#hero #spolight section.left ul li{}
 
