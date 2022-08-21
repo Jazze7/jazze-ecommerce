@@ -469,7 +469,7 @@ padding: 8px;
   font-weight: 600;
 }
 #girl{
-  padding-top: 100px;
+  padding: 100px 0;
 }
 #girl section.wrapper{
   display: flex;
@@ -552,3 +552,24 @@ padding: 8px;
 #girl section.wrapper div.right div.description span a img{
   width: 15px;
 }
+#cloth{}
+#cloth section.wrapper{}
+#cloth section.wrapper div.head{}
+#cloth section.wrapper div.head ul{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+#cloth section.wrapper div.head ul li{
+  font-weight: 600;
+  font-size: 32px;
+}
+#cloth section.wrapper div.head ul li:nth-child(even){
+  border: 2px solid #777;
+  transform: rotate(90deg);
+}
+#cloth section.wrapper div.tail div.pic{}
+#cloth section.wrapper div.tail div.pic img{}
+#cloth section.wrapper div.tail div.icon{}
+#cloth section.wrapper div.tail div.icon a{}
+#cloth section.wrapper div.tail div.icon a img{}
