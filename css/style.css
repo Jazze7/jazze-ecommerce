@@ -469,7 +469,7 @@ padding: 8px;
   font-weight: 600;
 }
 #girl{
-  padding: 100px 0;
+  padding-top: 100px ;
 }
 #girl section.wrapper{
   display: flex;
@@ -552,24 +552,45 @@ padding: 8px;
 #girl section.wrapper div.right div.description span a img{
   width: 15px;
 }
-#cloth{}
+#cloth{
+  padding: 200px 0;
+}
 #cloth section.wrapper{}
 #cloth section.wrapper div.head{}
 #cloth section.wrapper div.head ul{
   display: flex;
   justify-content: space-between;
-  padding: 0 50px;
+  padding: 0 100px;
+  margin-bottom: 60px;
 }
 #cloth section.wrapper div.head ul li{
   font-weight: 600;
-  font-size: 32px;
+  font-size: 40px;
 }
 #cloth section.wrapper div.head ul li:nth-child(even){
   border: 2px solid #777;
   transform: rotate(90deg);
+  margin: 22px 0;
 }
-#cloth section.wrapper div.tail div.pic{}
-#cloth section.wrapper div.tail div.pic img{}
-#cloth section.wrapper div.tail div.icon{}
-#cloth section.wrapper div.tail div.icon a{}
-#cloth section.wrapper div.tail div.icon a img{}
+#cloth section.wrapper div.tail {
+  display: flex;
+  justify-content: space-evenly;
+}
+#cloth section.wrapper div.tail div.pic{
+  width: 32%;
+  position: relative;
+}
+#cloth section.wrapper div.tail div.pic>img{
+  width: 100%;
+}
+#cloth section.wrapper div.tail div.pic.size>img{
+    height: 100%;
+}
+#cloth section.wrapper div.tail div.pic a{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+#cloth section.wrapper div.tail div.pic a img{
+  
+}
