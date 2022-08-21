@@ -643,4 +643,68 @@ padding: 8px;
   font-weight: 500;
 
 }
+footer{
+  padding-top: 150px;
+}
+footer hr.line{
+  border: 0.1px solid #a6a6a6;
+}
+footer section.wrapper{}
+footer section.wrapper div.head{
+  padding-top:100px ;
+  display: flex;
+  justify-content: space-between;
+}
+footer section.wrapper div.head div.left{
+  width: 45%;
+}
+footer section.wrapper div.head div.left h4{
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 20px;
+  margin-bottom: 30px;
+}
+footer section.wrapper div.head div.left p{
+  max-width: 300px;
+}
+footer section.wrapper div.head div.right{
+  display: flex;
+  justify-content: space-between;
+  width: 55%;
+}
+footer section.wrapper div.head div.right div.list{
+  
+}
+footer section.wrapper div.head div.right div.list h5{
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+footer section.wrapper div.head div.right div.list ul{}
+footer section.wrapper div.head div.right div.list ul li{
+  margin-bottom: 15px;
+}
+footer section.wrapper div.head div.right div.list ul li a{}
+footer section.wrapper div.head div.right div.list ul li a img{}
+footer section.wrapper div.head div.right div.list ul li a {}
+footer section.wrapper div.head div.right div.list div.social{
+  margin-top: 30px;
+}
+footer section.wrapper  div.bottom{
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0;
+}
+footer section.wrapper  div.bottom div.first{}
+footer section.wrapper  div.bottom div.first span{}
+footer section.wrapper  div.bottom div.last{
+  width: 20%;
+}
+footer section.wrapper  div.bottom div.last ul{
+  display: flex;
+  justify-content: space-between;
+  
+}
+footer section.wrapper  div.bottom div.last ul li{}
+footer section.wrapper  div.bottom div.last ul li a{}
 
