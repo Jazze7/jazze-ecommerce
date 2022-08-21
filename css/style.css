@@ -218,7 +218,7 @@ header {
 }
 #hero #spotlight{
   display: flex;
-  height: calc(100vh - 80px);
+  /* height: calc(100vh - 80px); */
 }
 #hero #spotlight section.left{
   width: 60%;
@@ -242,15 +242,13 @@ header {
 #hero #spotlight section.left div.bottom {
   display: flex;
   flex-direction: column;
-  align-items:flex-end ;
+  align-items:flex-end;
   width: 80%;
-
+  position: relative;
 }
 #hero #spotlight section.left div.content {
-  /* position: absolute; */
-  right: 0;
-
   width: 70%;
+  
 }
 #hero #spotlight section.left  div.content h4{
   font-size: 32px;
@@ -259,39 +257,55 @@ header {
 #hero #spotlight section.left  div.content p {
   color: #777;
   margin-bottom: 20px;
-  
 }
 #hero #spotlight section.left  div.content a.button {
-  padding: 15px 30px;
+  padding: 17px 35px;
   background: #000;
   color: #fff;
-  border-radius: 5px;
+  display: inline-block;
+  font-size: 15px;
 }
 
-#hero #spotlight section.left div.bottom div.bottom.part {
-}
-#hero #spotlight section.left div.bottom div.bottom.part ul.line {
+#hero #spotlight section.left div.bottom div.bottom_part {
   display: flex;
-  justify-content: space-between;
+  position: absolute;
+  bottom: -72px;
 }
-#hero #spotlight section.left div.bottom div.bottom.part ul.line li:first-child hr.line {
+#hero #spotlight section.left div.bottom div.bottom_part ul.line {
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
+  position: absolute;
+  left: -215px;
+  bottom:8px;
+}
+#hero #spotlight section.left div.bottom div.bottom_part ul.line li:first-child hr.line {
  border: 1px solid #e41d1d;
  width: 80px;
+ margin-right:15px;
 }
-#hero #spotlight section.left div.bottom div.bottom.part ul.line li hr.line {
+#hero #spotlight section.left div.bottom div.bottom_part ul.line li hr.line {
   border: 1px solid #000;
   width: 50px;
+  margin-right: 15px;
 }
-#hero #spotlight section.left div.bottom div.bottom.part div.arrow {
- 
+#hero #spotlight section.left div.bottom div.bottom_part ul.line li:last-child hr.line{
+  margin-right: 0;
 }
-#hero #spotlight section.left div.bottom div.bottom.part div.arrow a {
-  border: 1px solid #777;
-  padding: 10px;
-  text-align: center;
+#hero #spotlight section.left div.bottom div.bottom_part div.arrow {
+ position: absolute;
+ right: -90px;
+ bottom: 23px;
+ display: flex;
 }
-#hero #spotlight section.left div.bottom div.bottom.part div.arrow a:first-child img {
+#hero #spotlight section.left div.bottom div.bottom_part div.arrow a {
+  border: 0.01px solid #D3D3D3;
+  padding: 10px 12px;
+  /* text-align: center; */
+}
+#hero #spotlight section.left div.bottom div.bottom_part div.arrow a:first-child img {
   transform: rotate(180deg);
+
 }
 #hero #spotlight section.right {
   width: 60%;
@@ -299,14 +313,14 @@ header {
 #hero #spotlight section.right div.imgcontainer{
   display: inline-block;
   width: 100%;
-  /* background-size: cover; */
+  
 
 
 }
 #hero #spotlight section.right div.imgcontainer img{
   width: 100%;
   display: block;
-  /* height: 425px; */
+  
   
 }
 #hero #spotlight section.right div.content{
@@ -314,31 +328,32 @@ header {
   margin-top: 10px;
   align-items: center;
   justify-content: space-between;
+  
 }
 #hero #spotlight section.right div.content small{
   color: #777;
   display: inline-block;
-  width: 70%;
+  width: 75%;
+  font-size: 12px;
 }
-#hero #spotlight section.right div.content h4{
+#hero #spotlight section.right div.content span{
   display: inline-block;
   font-size: 14px;
   font-weight: bolder;
 }
-#hero #spotlight section.right div.content h4 a{
+#hero #spotlight section.right div.content span a{
   display: flex;
   align-items: center;
+  font-weight: 600;
 }
-#hero #spotlight section.right div.content h4 a img{
+#hero #spotlight section.right div.content span a img{
   width: 10%;
   display: block;
 }
 #products { 
   background: url(../images/Bg-lines.png);
   background-repeat: no-repeat;
-  padding-top:30px;
-  background-position-x: right;
-  background-position-y: 20px;
+
   background-size: cover;
   
 }
@@ -387,7 +402,7 @@ header {
 }
 
 #products section.wrapper div.tail ul li { 
-  width: 13%;
+  width: 17%;
   
 
 }
@@ -424,7 +439,7 @@ background: #e41d1d;
 display: inline-block;
 color: #fff;
 position: absolute;
-top: 195px;
+bottom: 232px;
 padding: 8px;
 
 }
@@ -437,7 +452,7 @@ padding: 8px;
 #products section.wrapper div.tail ul li:nth-child(6) a{
   display: inline-block;
   width: 80%;
-  margin-left: 80%;
+  margin-left: 30%;
 }
 #products section.wrapper div.tail ul li:nth-child(6) a img{
 
@@ -453,7 +468,7 @@ padding: 8px;
 
 }
 
-#products .wrapper .tail ul li .photo img { 
+#products section.wrapper div.tail ul li .photo img { 
   width: 100%;
 
 }
@@ -468,9 +483,10 @@ padding: 8px;
 
 }
 
-#products .wrapper .tail ul li a small { 
+#products section.wrapper div.tail ul li a small { 
   color: #777;
   max-width: 20%;
+  background: #fff;
 
 }
 
@@ -568,8 +584,8 @@ padding: 8px;
 #cloth section.wrapper div.head{}
 #cloth section.wrapper div.head ul{
   display: flex;
-  justify-content: space-between;
-  padding: 0 100px;
+  justify-content: space-around;
+  
   margin-bottom: 60px;
 }
 #cloth section.wrapper div.head ul li{
@@ -647,7 +663,7 @@ footer{
   padding-top: 150px;
 }
 footer hr.line{
-  border: 0.1px solid #a6a6a6;
+  border: 0.1px solid #D3D3D3;
 }
 footer section.wrapper{}
 footer section.wrapper div.head{
@@ -705,6 +721,5 @@ footer section.wrapper  div.bottom div.last ul{
   justify-content: space-between;
   
 }
-footer section.wrapper  div.bottom div.last ul li{}
-footer section.wrapper  div.bottom div.last ul li a{}
+
 
