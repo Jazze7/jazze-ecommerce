@@ -266,11 +266,7 @@ header {
   font-size: 15px;
 }
 
-#hero #spotlight section.left div.bottom  {
-  /* display: flex; */
-  position: relative;
-   
-}
+
 #hero #spotlight section.left div.bottom  ul.line {
   display: flex;
   justify-content: space-evenly;
@@ -647,7 +643,7 @@ padding: 8px;
   width: 32.5%;
   padding: 50px 0 50px 15px;
 }
-#contact section.wrapper div.bottom ul li:nth-child(even){
+#contact section.wrapper div.bottom ul li:hover{
   border-bottom: 3px solid #000;
 }
 #contact section.wrapper div.bottom ul li img{}
@@ -684,7 +680,7 @@ footer section.wrapper div.head div.left h4{
   margin-bottom: 30px;
 }
 footer section.wrapper div.head div.left p{
-  max-width: 300px;
+  width: 300px;
 }
 footer section.wrapper div.head div.right{
   display: flex;
