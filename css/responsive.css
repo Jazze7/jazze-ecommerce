@@ -1,46 +1,101 @@
-@media all and (max-width:1280px){
+@media all and (max-width:1280px) {
     #hero #spotlight section.left div.content h4 {
         font-size: 22px;
     }
+
     #hero #spotlight section.left div.content p {
         font-size: 11px;
     }
+
     #hero #spotlight section.left div.content a.button {
         padding: 10px 20px;
 
     }
-    #hero #spotlight section.left div.bottom ul.line{
-        left:100px;
+
+    #hero #spotlight section.left div.bottom ul.line {
+        left: 100px;
     }
-    #hero #spotlight section.left div.bottom ul.line{
+
+    #hero #spotlight section.left div.bottom ul.line {
         width: 50%;
     }
+
     #hero #spotlight section.left div.bottom div.arrow {
         right: -80px;
         bottom: -20px;
     }
-    #hero #spotlight section.left div.bottom div.arrow a{
 
+    #hero #spotlight section.right div.content small {
+        width: 80%;
+        font-size: 11px;
     }
+
+    #hero #spotlight section.right div.content span {
+        font-size: 12px;
+    }
+
+    #hero #spotlight section.right div.content span a img {
+        width: 9%;
+    }
+
     #products section.wrapper div.tail ul li:nth-child(5) div.sale {
         bottom: 258px;
     }
-    #girl section.wrapper div.left div.description{
+
+    #girl section.wrapper div.left div.description {
         padding: 20px 2px 20px 15px;
     }
+
     #girl section.wrapper div.left div.description p {
         font-size: 18px;
     }
+
     #girl section.wrapper div.left div.description span a img {
         width: 10px;
     }
-    #girl section.wrapper div.right div.description{
+
+    #girl section.wrapper div.right div.description {
         padding: 20px 0 20px 15px;
     }
+
     #girl section.wrapper div.right div.description p {
         font-size: 18px;
     }
+
     #girl section.wrapper div.right div.description span a img {
         width: 10px;
+    }
+}
+
+@media all and (max-width:1080px) {
+    #hero #spotlight section.left div.top div.ul {
+        font-size: 5px;
+    }
+    #hero #spotlight section.left div.top div.ul ul li a {
+        font-size: 11px;
+    }
+    #hero #spotlight section.left div.bottom div.arrow a {
+        padding: 7px 7px;
+    }
+    #hero #spotlight section.left div.bottom div.arrow {
+        right: -75px;
+        bottom: -35px;
+    }
+    #cloth section.wrapper div.head ul li {
+        font-weight: 600;
+        font-size: 30px;
+    }
+    #cloth section.wrapper div.head ul li:nth-child(even) {
+        margin: 15px 0;
+    }
+    #contact section.wrapper div.bottom ul li span {
+    
+        max-width: 80%;
+    }
+    footer section.wrapper div.head div.right {
+        width: 60%;
+    }
+    footer section.wrapper div.bottom div.last {
+        width: 25%;
     }
 }
