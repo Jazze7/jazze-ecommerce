@@ -266,44 +266,46 @@ header {
   font-size: 15px;
 }
 
-#hero #spotlight section.left div.bottom div.bottom_part {
-  display: flex;
-  position: absolute;
-  bottom: -72px;
+#hero #spotlight section.left div.bottom  {
+  /* display: flex; */
+  position: relative;
+   
 }
-#hero #spotlight section.left div.bottom div.bottom_part ul.line {
+#hero #spotlight section.left div.bottom  ul.line {
   display: flex;
   justify-content: space-evenly;
-  width: 60%;
+  width: 40%;
   position: absolute;
-  left: -215px;
-  bottom:8px;
+  left: 129px;
+  bottom: -50px;
+
 }
-#hero #spotlight section.left div.bottom div.bottom_part ul.line li:first-child hr.line {
+#hero #spotlight section.left div.bottom  ul.line li:first-child hr.line {
  border: 1px solid #e41d1d;
- width: 80px;
- margin-right:15px;
+ width: 70px;
+
 }
-#hero #spotlight section.left div.bottom div.bottom_part ul.line li hr.line {
+#hero #spotlight section.left div.bottom  ul.line li hr.line {
   border: 1px solid #000;
-  width: 50px;
-  margin-right: 15px;
+  width: 40px;
+  
+ 
 }
-#hero #spotlight section.left div.bottom div.bottom_part ul.line li:last-child hr.line{
-  margin-right: 0;
+#hero #spotlight section.left div.bottom  ul.line li:last-child hr.line{
+
 }
-#hero #spotlight section.left div.bottom div.bottom_part div.arrow {
- position: absolute;
- right: -90px;
- bottom: 23px;
+#hero #spotlight section.left div.bottom  div.arrow {
  display: flex;
+ position: absolute;
+ right:-100px;
+ bottom: -47px;
 }
-#hero #spotlight section.left div.bottom div.bottom_part div.arrow a {
+#hero #spotlight section.left div.bottom  div.arrow a {
   border: 0.01px solid #D3D3D3;
   padding: 10px 12px;
-  /* text-align: center; */
+  
 }
-#hero #spotlight section.left div.bottom div.bottom_part div.arrow a:first-child img {
+#hero #spotlight section.left div.bottom  div.arrow a:first-child img {
   transform: rotate(180deg);
 
 }
@@ -320,6 +322,7 @@ header {
 #hero #spotlight section.right div.imgcontainer img{
   width: 100%;
   display: block;
+  height: 100%;
   
   
 }
