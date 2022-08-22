@@ -224,3 +224,96 @@ footer section.wrapper div.bottom div.last ul li a {
     font-size: 14px;
 }
 }
+@media all and (max-width: 768px){
+    #hero header nav.middle a {
+        letter-spacing: 10px;
+        font-weight: 600;
+        font-size: 24px;
+    }
+    #hero #spotlight section.left div.bottom {
+        padding-top: 10px;
+    }
+    #hero #spotlight section.left div.content h4 {
+        font-size: 30px;
+    }
+    #hero #spotlight section.left div.content p {
+        font-size: 13px;
+        max-width: 86%;
+    }
+    #hero #spotlight section.left div.bottom ul.line{
+        display: none;
+    }
+    #hero #spotlight section.left div.bottom div.arrow {
+        display: none;
+    }
+    #hero {
+        padding-bottom: 80px;
+    }
+    #hero header nav.right ul{
+        width: 75%;
+    }
+    #hero header nav.right ul li a div.eight{
+        width: 20px;
+    }
+    #hero header nav.right ul li a div.bag span {
+        font-size: 10px;
+    }
+    #hero header nav.right ul li a div.bag{
+        width: 20px;
+    }
+    #hero header nav.right ul li a div.eight span{
+        font-size: 10px;
+    }
+    #products section.wrapper div.tail ul li:nth-child(2) {
+        display: none;
+    }
+    #products section.wrapper div.tail ul li:nth-child(6) {
+        display: none;
+    }
+    #products section.wrapper div.tail ul li a small{
+        display: none;
+    }
+    #products .wrapper .tail ul li a h5{
+        font-size: 12px;
+    }
+    #products section.wrapper div.tail ul li:nth-child(5) div.sale {
+        padding: 3px;
+        bottom: 201px;
+    }
+    #girl section.wrapper div.right div.description {
+        padding: 18px 0 18px 15px;
+    }
+    #girl section.wrapper div.left div.description p {
+        font-size: 12px;
+    }
+    #girl section.wrapper div.left div.description span a {
+        font-size: 12px;
+    }
+    #girl section.wrapper div.right div.description p {
+        font-size: 12px;
+    }
+    #girl section.wrapper div.right div.description span a {
+        font-size: 12px;
+    }
+    #cloth {
+        padding: 80px 0;
+    }
+    #cloth section.wrapper div.head ul li {
+        font-size: 25px;
+    }
+    #cloth section.wrapper div.head ul {
+        margin-bottom: 20px;
+    }
+    #cloth section.wrapper div.tail div.pic a {
+        width: 25%;
+    }
+    #contact section.wrapper div.top a.button {
+        padding: 8px;
+    }
+    footer {
+        padding-top: 80px;
+    }
+    footer section.wrapper div.head {
+        padding-top: 50px;
+    }
+}

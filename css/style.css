@@ -186,6 +186,8 @@ header {
   position: relative;
 }
 #hero header nav.right ul li a img {
+  width: 100%;
+  display: block;
 }
 #hero header nav.right ul li a div.eight {
   border-radius: 50%;
@@ -616,6 +618,8 @@ padding: 8px;
   left: 0;
 }
 #cloth section.wrapper div.tail div.pic a img{
+  width: 100%;
+  display: block;
   
 }
 #contact{}
