@@ -139,12 +139,10 @@ br.clear {
   font-style: normal;
   font-display: swap;
 }
+/* hero style section starts */
 #hero {
   /* height: 100vh; */
   padding-bottom: 150px;
-}
-#hero section.wrapper{
-
 }
 header {
   display: flex;
@@ -152,24 +150,10 @@ header {
   align-items: center;
   height: 80px;
 }
-#hero header nav.left {
-
-}
-#hero header nav.left a {
-}
-#hero header nav.left a img {
-}
-#hero header nav.middle {
-}
-#hero header nav.middle h1 {
-
-}
 #hero header nav.middle a {
   letter-spacing: 20px;
   font-weight: 600;
   font-size: 32px;
-}
-#hero header nav.right {
 }
 #hero header nav.right ul {
   display: flex;
@@ -218,49 +202,45 @@ header {
   display: block;
   font-weight: 600;
 }
-#hero #spotlight{
+/* spotlight section style starts */
+#hero #spotlight {
   display: flex;
   /* height: calc(100vh - 80px); */
 }
-#hero #spotlight section.left{
+#hero #spotlight section.left {
   width: 60%;
-
 }
-#hero #spotlight section.left div.top{
+#hero #spotlight section.left div.top {
   width: 100%;
-  /* position: relative; */
 }
-#hero #spotlight section.left div.top div.ul{
+#hero #spotlight section.left div.top div.ul {
   font-size: 12px;
 }
-#hero #spotlight section.left div.top div.ul ul{}
-#hero #spotlight section.left div.top div.ul ul  li{}
-#hero #spotlight section.left div.top div.ul ul li a{
-    font-size: 13px;
+#hero #spotlight section.left div.top div.ul ul li a {
+  font-size: 13px;
 }
-#hero #spotlight section.left div.top ul li:last-child a{
+#hero #spotlight section.left div.top ul li:last-child a {
   color: #777;
 }
 #hero #spotlight section.left div.bottom {
   display: flex;
   flex-direction: column;
-  align-items:flex-end;
+  align-items: flex-end;
   width: 80%;
   position: relative;
 }
 #hero #spotlight section.left div.content {
   width: 70%;
-  
 }
-#hero #spotlight section.left  div.content h4{
+#hero #spotlight section.left div.content h4 {
   font-size: 32px;
   font-weight: 600;
 }
-#hero #spotlight section.left  div.content p {
+#hero #spotlight section.left div.content p {
   color: #777;
   margin-bottom: 20px;
 }
-#hero #spotlight section.left  div.content a.button {
+#hero #spotlight section.left div.content a.button {
   padding: 17px 35px;
   background: #000;
   color: #fff;
@@ -268,332 +248,263 @@ header {
   font-size: 15px;
 }
 
-
-#hero #spotlight section.left div.bottom  ul.line {
+#hero #spotlight section.left div.bottom ul.line {
   display: flex;
   justify-content: space-evenly;
   width: 40%;
   position: absolute;
   left: 129px;
   bottom: -50px;
-
 }
-#hero #spotlight section.left div.bottom  ul.line li:first-child hr.line {
- border: 1px solid #e41d1d;
- width: 70px;
-
+#hero #spotlight section.left div.bottom ul.line li:first-child hr.line {
+  border: 1px solid #e41d1d;
+  width: 70px;
 }
-#hero #spotlight section.left div.bottom  ul.line li hr.line {
+#hero #spotlight section.left div.bottom ul.line li hr.line {
   border: 1px solid #000;
   width: 40px;
-  
- 
 }
-#hero #spotlight section.left div.bottom  ul.line li:last-child hr.line{
-
+#hero #spotlight section.left div.bottom div.arrow {
+  display: flex;
+  position: absolute;
+  right: -100px;
+  bottom: -47px;
 }
-#hero #spotlight section.left div.bottom  div.arrow {
- display: flex;
- position: absolute;
- right:-100px;
- bottom: -47px;
-}
-#hero #spotlight section.left div.bottom  div.arrow a {
-  border: 0.01px solid #D3D3D3;
+#hero #spotlight section.left div.bottom div.arrow a {
+  border: 0.01px solid #d3d3d3;
   padding: 10px 12px;
-  
 }
-#hero #spotlight section.left div.bottom  div.arrow a:first-child img {
+#hero #spotlight section.left div.bottom div.arrow a:first-child img {
   transform: rotate(180deg);
-
 }
 #hero #spotlight section.right {
   width: 60%;
 }
-#hero #spotlight section.right div.imgcontainer{
+#hero #spotlight section.right div.imgcontainer {
   display: inline-block;
   width: 100%;
-  
-
-
 }
-#hero #spotlight section.right div.imgcontainer img{
+#hero #spotlight section.right div.imgcontainer img {
   width: 100%;
   display: block;
   height: 100%;
-  
-  
 }
-#hero #spotlight section.right div.content{
+#hero #spotlight section.right div.content {
   display: flex;
   margin-top: 10px;
   align-items: center;
   justify-content: space-between;
-  
 }
-#hero #spotlight section.right div.content small{
+#hero #spotlight section.right div.content small {
   color: #777;
   display: inline-block;
   width: 75%;
   font-size: 12px;
 }
-#hero #spotlight section.right div.content span{
+#hero #spotlight section.right div.content span {
   display: inline-block;
   font-size: 14px;
   font-weight: bolder;
 }
-#hero #spotlight section.right div.content span a{
+#hero #spotlight section.right div.content span a {
   display: flex;
   align-items: center;
   font-weight: 600;
 }
-#hero #spotlight section.right div.content span a img{
+#hero #spotlight section.right div.content span a img {
   width: 10%;
   display: block;
 }
-#products { 
+/* hero section style ends */
+/* product section style starts */
+#products {
   background: url(../images/Bg-lines.png);
   background-repeat: no-repeat;
-
   background-size: cover;
-  
-}
-
-#products section.wrapper { 
-
 }
 
 #products section.wrapper div.head {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 10px; 
-  
-
+  margin-bottom: 10px;
 }
 
-#products section.wrapper div.head h4 { 
+#products section.wrapper div.head h4 {
   font-weight: 600;
   max-width: 45%;
   font-size: 32px;
- 
-
 }
 
-#products section.wrapper div.head a.button { 
-  font-weight:600;
+#products section.wrapper div.head a.button {
+  font-weight: 600;
   background: #fff;
-
 }
 
-#products section.wrapper div.head a.button img { 
+#products section.wrapper div.head a.button img {
   width: 15%;
-
 }
 
-#products section.wrapper div.tail { 
-
-
-}
-
-#products section.wrapper div.tail ul { 
-
+#products section.wrapper div.tail ul {
   display: flex;
   justify-content: space-between;
 }
 
-#products section.wrapper div.tail ul li { 
+#products section.wrapper div.tail ul li {
   width: 17%;
-  
-
 }
-#products section.wrapper div.tail ul li:first-child{
-   margin-top: 150px;
-
-}
-#products section.wrapper div.tail ul li:nth-child(2){
+#products section.wrapper div.tail ul li:first-child {
   margin-top: 150px;
-
-}#products section.wrapper div.tail ul li:nth-child(2){
+}
+#products section.wrapper div.tail ul li:nth-child(2) {
+  margin-top: 150px;
+}
+#products section.wrapper div.tail ul li:nth-child(2) {
   margin-top: 150px;
   width: 4%;
 }
 #products section.wrapper div.tail ul li:nth-child(2) a {
   width: 25%;
-  
 }
 #products section.wrapper div.tail ul li:nth-child(2) a img {
   width: 100%;
   transform: rotate(180deg);
-  
 }
-
-#products section.wrapper div.tail ul li:nth-child(4){
-   margin-top: 150px;
-
+#products section.wrapper div.tail ul li:nth-child(4) {
+  margin-top: 150px;
 }
 #products section.wrapper div.tail ul li:nth-child(5) {
   position: relative;
 }
-#products section.wrapper div.tail ul li:nth-child(5) div.sale{
-background: #e41d1d;
-display: inline-block;
-color: #fff;
-position: absolute;
-bottom: 232px;
-padding: 8px;
-
+#products section.wrapper div.tail ul li:nth-child(5) div.sale {
+  background: #e41d1d;
+  display: inline-block;
+  color: #fff;
+  position: absolute;
+  bottom: 232px;
+  padding: 8px;
 }
-#products section.wrapper div.tail ul li:nth-child(6){
-   margin-top: 150px;
-   width: 5%;
-  
-
+#products section.wrapper div.tail ul li:nth-child(6) {
+  margin-top: 150px;
+  width: 5%;
 }
-#products section.wrapper div.tail ul li:nth-child(6) a{
+#products section.wrapper div.tail ul li:nth-child(6) a {
   display: inline-block;
   width: 80%;
   margin-left: 30%;
 }
-#products section.wrapper div.tail ul li:nth-child(6) a img{
-
+#products section.wrapper div.tail ul li:nth-child(6) a img {
   width: 100%;
-
 }
-#products section.wrapper div.tail ul li:last-child{
-   margin-top: 150px;
-
+#products section.wrapper div.tail ul li:last-child {
+  margin-top: 150px;
 }
-#products section.wrapper div.tail ul li div.photo { 
- 
-
-}
-
-#products section.wrapper div.tail ul li .photo img { 
+#products section.wrapper div.tail ul li .photo img {
   width: 100%;
-
 }
-
-#products .wrapper .tail ul li a { 
-
-}
-
-#products .wrapper .tail ul li a h5 { 
+#products .wrapper .tail ul li a h5 {
   font-size: 15px;
   font-weight: 600;
-
 }
-
-#products section.wrapper div.tail ul li a small { 
+#products section.wrapper div.tail ul li a small {
   color: #777;
   width: 20%;
   background: #fff;
-
 }
-
-#products .wrapper .tail ul li a h4 { 
+#products .wrapper .tail ul li a h4 {
   font-weight: 600;
 }
-#girl{
-  padding-top: 100px ;
+/* product section style ends */
+/* article section style start */
+#article {
+  padding-top: 100px;
 }
-#girl section.wrapper{
+#article section.wrapper {
   display: flex;
 }
-#girl section.wrapper div.left{
+#article section.wrapper div.left {
   position: relative;
 }
-#girl section.wrapper div.left div.pic{
+#article section.wrapper div.left div.pic {
   width: 100%;
 }
-#girl section.wrapper div.left div.pic img{
+#article section.wrapper div.left div.pic img {
   width: 100%;
 }
-#girl section.wrapper div.left div.description{
+#article section.wrapper div.left div.description {
   background: #000;
   position: absolute;
   padding: 30px 0 30px 30px;
   width: 75%;
   bottom: 8px;
-  
-  
 }
-#girl section.wrapper div.left div.description h6{
+#article section.wrapper div.left div.description h6 {
   font-size: 15px;
   margin-bottom: 10px;
   font-weight: 600;
   color: #777;
 }
-#girl section.wrapper div.left div.description p{
+#article section.wrapper div.left div.description p {
   color: #fff;
   font-size: 24px;
-  
-
-
 }
-#girl section.wrapper div.left div.description span{
- 
-}
-#girl section.wrapper div.left div.description span a{
+#article section.wrapper div.left div.description span a {
   color: #777;
   font-weight: 600;
 }
-#girl section.wrapper div.left div.description span a img{
+#article section.wrapper div.left div.description span a img {
   width: 15px;
 }
-#girl section.wrapper div.right{
+#article section.wrapper div.right {
   position: relative;
 }
-#girl section.wrapper div.right div.pic{
+#article section.wrapper div.right div.pic {
   width: 100%;
 }
-#girl section.wrapper div.right div.pic img{
+#article section.wrapper div.right div.pic img {
   width: 100%;
 }
-#girl section.wrapper div.right div.description{
-  background:#e9dbb4;
+#article section.wrapper div.right div.description {
+  background: #e9dbb4;
   position: absolute;
   padding: 30px 30px 30px 30px;
   width: 75%;
   top: 0;
   right: 0;
 }
-#girl section.wrapper div.right div.description h6{
+#article section.wrapper div.right div.description h6 {
   font-size: 15px;
   margin-bottom: 10px;
   font-weight: 600;
   color: #777;
 }
-#girl section.wrapper div.right div.description p{
-  color:#747474;
+#article section.wrapper div.right div.description p {
+  color: #747474;
   font-size: 24px;
   font-weight: 600;
-  
 }
-#girl section.wrapper div.right div.description span{}
-#girl section.wrapper div.right div.description span a{
+#article section.wrapper div.right div.description span a {
   color: #777;
   font-weight: 600;
 }
-#girl section.wrapper div.right div.description span a img{
+#article section.wrapper div.right div.description span a img {
   width: 15px;
 }
-#cloth{
+/* article section style ends */
+/* cloth section style starts*/
+#cloth {
   padding: 200px 0;
 }
-#cloth section.wrapper{}
-#cloth section.wrapper div.head{}
-#cloth section.wrapper div.head ul{
+#cloth section.wrapper div.head ul {
   display: flex;
   justify-content: space-around;
-  
   margin-bottom: 60px;
 }
-#cloth section.wrapper div.head ul li{
+#cloth section.wrapper div.head ul li {
   font-weight: 600;
   font-size: 40px;
 }
-#cloth section.wrapper div.head ul li:nth-child(even){
+#cloth section.wrapper div.head ul li:nth-child(even) {
   border: 2px solid #777;
   transform: rotate(90deg);
   margin: 22px 0;
@@ -602,127 +513,110 @@ padding: 8px;
   display: flex;
   justify-content: space-evenly;
 }
-#cloth section.wrapper div.tail div.pic{
+#cloth section.wrapper div.tail div.pic {
   width: 32%;
   position: relative;
 }
-#cloth section.wrapper div.tail div.pic>img{
+#cloth section.wrapper div.tail div.pic > img {
   width: 100%;
 }
-#cloth section.wrapper div.tail div.pic.size>img{
-    height: 100%;
+#cloth section.wrapper div.tail div.pic.size > img {
+  height: 100%;
 }
-#cloth section.wrapper div.tail div.pic a{
+#cloth section.wrapper div.tail div.pic a {
   position: absolute;
-  bottom: 0;
+  bottom: 7px;
   left: 0;
 }
-#cloth section.wrapper div.tail div.pic a img{
+#cloth section.wrapper div.tail div.pic a img {
   width: 100%;
   display: block;
-  
 }
-#contact{}
-#contact section.wrapper{}
-#contact section.wrapper div.top{
+/* cloth section style ends */
+/* contact section style start */
+#contact section.wrapper div.top {
   text-align: right;
   margin-bottom: 50px;
 }
-#contact section.wrapper div.top a.button{
+#contact section.wrapper div.top a.button {
   padding: 13px;
   background: #000;
   color: #fff;
-
-  
 }
-#contact section.wrapper div.bottom{}
-#contact section.wrapper div.bottom ul{
+#contact section.wrapper div.bottom ul {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  
 }
-#contact section.wrapper div.bottom ul li{
+#contact section.wrapper div.bottom ul li {
   border: 0.3px solid #a6a6a6;
   width: 32.5%;
   padding: 50px 0 50px 15px;
 }
-#contact section.wrapper div.bottom ul li:hover{
+#contact section.wrapper div.bottom ul li:hover {
   border-bottom: 3px solid #000;
 }
-#contact section.wrapper div.bottom ul li img{}
-#contact section.wrapper div.bottom ul li h5{
+#contact section.wrapper div.bottom ul li h5 {
   font-weight: 600;
   font-size: 18px;
 }
-#contact section.wrapper div.bottom ul li span{
+#contact section.wrapper div.bottom ul li span {
   color: #777;
   max-width: 75%;
   display: block;
   font-weight: 500;
-
 }
-footer{
+/* contact section style ends */
+/* footer section style start */
+footer {
   padding-top: 150px;
 }
-footer hr.line{
-  border: 0.1px solid #D3D3D3;
+footer hr.line {
+  border: 0.1px solid #d3d3d3;
 }
-footer section.wrapper{}
-footer section.wrapper div.head{
-  padding-top:100px ;
+footer section.wrapper div.head {
+  padding-top: 100px;
   display: flex;
   justify-content: space-between;
 }
-footer section.wrapper div.head div.left{
+footer section.wrapper div.head div.left {
   width: 45%;
 }
-footer section.wrapper div.head div.left h4{
+footer section.wrapper div.head div.left h4 {
   font-size: 32px;
   font-weight: 600;
   letter-spacing: 20px;
   margin-bottom: 30px;
 }
-footer section.wrapper div.head div.left p{
+footer section.wrapper div.head div.left p {
   width: 300px;
 }
-footer section.wrapper div.head div.right{
+footer section.wrapper div.head div.right {
   display: flex;
   justify-content: space-between;
   width: 55%;
 }
-footer section.wrapper div.head div.right div.list{
-  
-}
-footer section.wrapper div.head div.right div.list h5{
+footer section.wrapper div.head div.right div.list h5 {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 30px;
 }
-footer section.wrapper div.head div.right div.list ul{}
-footer section.wrapper div.head div.right div.list ul li{
+footer section.wrapper div.head div.right div.list ul li {
   margin-bottom: 15px;
 }
-footer section.wrapper div.head div.right div.list ul li a{}
-footer section.wrapper div.head div.right div.list ul li a img{}
-footer section.wrapper div.head div.right div.list ul li a {}
-footer section.wrapper div.head div.right div.list div.social{
+footer section.wrapper div.head div.right div.list div.social {
   margin-top: 30px;
 }
-footer section.wrapper  div.bottom{
+footer section.wrapper div.bottom {
   display: flex;
   justify-content: space-between;
   margin: 50px 0;
 }
-footer section.wrapper  div.bottom div.first{}
-footer section.wrapper  div.bottom div.first span{}
-footer section.wrapper  div.bottom div.last{
+footer section.wrapper div.bottom div.last {
   width: 20%;
 }
-footer section.wrapper  div.bottom div.last ul{
+footer section.wrapper div.bottom div.last ul {
   display: flex;
   justify-content: space-between;
-  
 }
-
-
+/* footer section style ends */
